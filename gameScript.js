@@ -8,3 +8,14 @@ if(p) while(--p) {
    em[p] = tmp;
 }
 
+//Variables
+var pre="", pID, ppID=0, turn=0, t="transform", flip="rotateY(180deg)", flipBack="rotateY(0deg)", time, mode;
+
+//Resizing Screen
+window.onresize = init;
+function init() {
+   W = innerWidth;
+   H = innerHeight;
+   $('body').height(H+"px");
+   $('#ol').height(H+"px");
+}
