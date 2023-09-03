@@ -34,7 +34,6 @@ We welcome contributions from the open-source community to enhance and improve t
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
 
 ---
 
